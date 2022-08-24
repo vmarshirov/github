@@ -1,0 +1,8 @@
+Сначала на GitHub
+cat > .gitignore
+/.ssh/*
+/.idea/*
+id_rsa
+id_rsa.pub
+
+123
