@@ -31,9 +31,12 @@ git status --ignored;
 
 
 git log -n2 --oneline --graph --all;
-
 echo "git reflog --all"
 git reflog --all
+
 #git cat-file -p 546fcd1
 #rm -rf .git;
-git push -u origin main
+#git cat-file -p  20dc015254b71088369f23244568bfb2c42c54bf;
+
+#git push --set-upstream origin main;
+#git push
