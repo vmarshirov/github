@@ -5,15 +5,15 @@
 #rm -rf .*;
 #rm -rf .git;
 git init;
-ls -lAF;
 git config --global user.name "vmarshirov";
 git config --global user.email "vmarshirov@outlook.com";
+git remote add origin git@github.com:vmarshirov/github.git;
+#git config --list;
 #--system --global --local
 git branch -M main;
 git branch;
 
-#git remote add origin git@github.com:vmarshirov/github.git;
-#git config --list;
+
 git pull origin main;
 git status;
 git status --ignored;
